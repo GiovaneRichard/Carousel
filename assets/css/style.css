@@ -83,7 +83,7 @@ a {
 .slide h1 {
     color: #fff;
     font-size: 4rem;
-    margin-top: -2rem;
+    margin-top: -1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -92,6 +92,10 @@ a {
     padding: 1rem 2rem;
     font-size: 1.5rem;
     border-radius: 5px;
+}
+
+.slide a:hover {
+    background-color: #111;
 }
 
 .arrow {
@@ -110,5 +114,5 @@ a {
 }
 
 .right-arrow {
-    right: 2rem;
+    right: 3rem;
 }
