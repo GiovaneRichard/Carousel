@@ -5,8 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+    <a href="#" class="humburger">
+        <i class="fas fa-bars"></i>
+    </a>
+    <a href="#" class="phone">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <div class="logo">
+        <i class="fas fa-shoe-prints"></i>
+        <h2>Tênis para corrida</h2>
+        <p>Encontre o tênis certo para vôce</p>
+    </div>
     
+    <div class="carousel-container">
+        <div class="carousel" id="carousel">
+            <div class="slide" data-bf="cb021c">
+                <img src="assets/images/1.png" alt="shoe-1">
+                <h1>Alta performance</h1>
+                <a href="#">Compre Agora</a>
+            </div>
+
+            <div class="slide" data-bf="0d1bf4">
+                <img src="assets/images/2.png" alt="shoe-2">
+                <h1>Designer Inovador</h1>
+                <a href="#">Compre Agora</a>
+            </div>
+
+            <div class="slide" data-bf="44caf9">
+                <img src="assets/images/3.png" alt="shoe-3">
+                <h1>Alto Conforto</h1>
+                <a href="#">Compre Agora</a>
+            </div>
+
+            <div class="slide" data-bf="3f4345">
+                <img src="assets/images/4.png" alt="shoe-4">
+                <h1>Leve para Corridas</h1>
+                <a href="#">Compre Agora</a>
+            </div>
+        </div>
+
+        <button class="left-arrow arrow" id="left">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <button class="right-arrow arrow" id="right">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
